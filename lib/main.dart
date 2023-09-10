@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/currency.dart';
 
 void main () {
   runApp(const MyApp());
@@ -11,10 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return MaterialApp (
-      home:Scaffold(
-        body: Center(child: Text("Hello world"),)
-      )
+    return const MaterialApp (
+      home:Currency(),
     );
   }
 }
